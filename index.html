@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap avançado</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Car Store</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Carros">Carros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container" id="inicio">
+        <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="2000" class="carousel-item active">
+                    <img class="d-block w-100" src="./imagens/slide1.png" alt="carro 1">
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/slide2.png" alt="carro 2">
+                </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/slide3.png" alt="carro 3">
+                </div>
+            </div>
+            <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="Carros">
+        <h2>Nosso Estoque</h2>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <article class="card">
+                    <header class="card-header">
+                        fusca 
+                    </header>
+                    <img src="./imagens/fusca.png" alt="#">
+                    <div class="card-body">
+                        <h4 class="card-title">Fusca 1994</h4>
+                        <p class="card-text">Veículo em perfeito estado mecânico, elétrico e de lanternagem, muito conservado na parte interna.</p>
+                        <a href="" class="btn btn-dark">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>19/04/2024 ás 08:57</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <article class="card">
+                    <header class="card-header">
+                        fusca
+                    </header>
+                    <img src="./imagens/fusca.png" alt="#">
+                    <div class="card-body">
+                        <h4 class="card-title">Fusca 1994</h4>
+                        <p class="card-text">Veículo em perfeito estado mecânico, elétrico e de lanternagem, muito conservado na parte interna.</p>
+                        <a href="" class="btn btn-dark">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time> 19/04/2024 ás 08:58</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <article class="card">
+                    <header class="card-header">
+                        fusca
+                    </header>
+                    <img src="./imagens/fusca.png" alt="#">
+                    <div class="card-body">
+                        <h4 class="card-title">Fusca 1994</h4>
+                        <p class="card-text">Veículo em perfeito estado mecânico, elétrico e de lanternagem, muito conservado na parte interna.</p>
+                        <a href="" class="btn btn-dark">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time> 19/04/2024 ás 08:58</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <article class="card">
+                    <header class="card-header">
+                        BMW
+                    </header>
+                    <img src="./imagens/carro-bmw.png" alt="#">
+                    <div class="card-body">
+                        <h4 class="card-title">BMW 2000</h4>
+                        <p class="card-text">Veículo em perfeito estado mecânico, elétrico e de lanternagem, muito conservado na parte interna.</p>
+                        <a href="" class="btn btn-dark">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time> 19/04/2024 ás 08:59</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <article class="card">
+                    <header class="card-header">
+                        BMW
+                    </header>
+                    <img src="./imagens/carro-bmw.png" alt="#">
+                    <div class="card-body">
+                        <h4 class="card-title">BMW 2000</h4>
+                        <p class="card-text">Veículo em perfeito estado mecânico, elétrico e de lanternagem, muito conservado na parte interna.</p>
+                        <a href="" class="btn btn-dark">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time> 19/04/2024 ás 08:59</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <article class="card">
+                    <header class="card-header">
+                        BMW 
+                    </header>
+                    <img src="./imagens/carro-bmw.png" alt="#">
+                    <div class="card-body">
+                        <h4 class="card-title">BMW 2000</h4>
+                        <p class="card-text">Veículo em perfeito estado mecânico, elétrico e de lanternagem, muito conservado na parte interna.</p>
+                        <a href="" class="btn btn-dark">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time> 19/04/2024 ás 08:59</time>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </div>
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2>Entre em Contato</h2>
+                    <form>
+                        <label class="form-label" for="nome">Seu nome:</label>
+                        <input class="fomr-control" type="text" id="nome"/><br>
+                        <label for="email" class="form-label">Seu E-mail:</label>
+                        <input id="email" type="email" class="fomr-control"/>
+                        <a href="" class="btn btn-dark">Enviar</a>
+                    </form>
+                </div>
+            </div>
+    </section>
+    </div>   
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3">
+            © 2024 Wilder Filho 2024:
+            <a class="text-dark" href="">Car Store</a>
+        </div>
+    </footer>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
